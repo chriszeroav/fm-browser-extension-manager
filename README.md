@@ -1,0 +1,1 @@
+# Broser extension manager

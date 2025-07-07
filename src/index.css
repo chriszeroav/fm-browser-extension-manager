@@ -1,0 +1,71 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-custom-neutral-900: #091540;
+  --color-custom-neutral-800: #202535;
+  --color-custom-neutral-700: #2f364b;
+  --color-custom-neutral-600: #535868;
+  --color-custom-neutral-300: #c6c6c6;
+  --color-custom-neutral-200: #d6e2f5;
+  --color-custom-neutral-100: #eeeeee;
+  --color-custom-neutral-0: #fbfdfe;
+  --color-custom-red-400: #f25c54;
+  --color-custom-red-500: #de4840;
+  --color-custom-red-700: #c7231a;
+
+  --font-noto-sans: 'Noto Sans', sans-serif;
+}
+
+@layer components {
+  .t-preset-1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 100%;
+    letter-spacing: -1px;
+  }
+  .t-preset-2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.2px;
+  }
+  .t-preset-3 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.3px;
+  }
+  .t-preset-4 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.3px;
+  }
+  .t-preset-4 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: -0.3px;
+  }
+  .t-preset-5 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+  }
+  .t-preset-6 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: -0.5px;
+  }
+}
