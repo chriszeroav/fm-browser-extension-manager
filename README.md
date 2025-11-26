@@ -2,6 +2,8 @@
 
 Un administrador visual de extensiones de navegador construido con React, TypeScript y Tailwind CSS. Este proyecto de práctica enfatiza el diseño UI/UX
 
+![browser-extension](https://github.com/user-attachments/assets/78734ef6-d919-4eb3-9e5d-924e3eec28bb)
+
 ## ✨ Características
 
 - **Filtros**: Visualiza todas las extensiones, solo activas o solo inactivas
