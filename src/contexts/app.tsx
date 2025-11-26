@@ -1,4 +1,4 @@
-import type { Extension, Tab } from '@/types'
+import type { Tab } from '@/types'
 import {
   createContext,
   useContext,
